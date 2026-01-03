@@ -1,0 +1,68 @@
+{
+  "schema_version": "surname_profile.v1",
+  "query": {
+    "input": { "el": "", "en": "" },
+    "matched_lastname": "",
+    "match_type": "exact|variant|simplified|greeklish|contains"
+  },
+  "profile": {
+    "display_name": "",
+    "normalized_key": "",
+    "summary": { "el": "", "en": "" },
+
+    "geo": {
+      "primary": [
+        { "name": { "el": "", "en": "" }, "type": "village|town|island|region|country|unknown" }
+      ],
+      "secondary": [
+        { "name": { "el": "", "en": "" }, "type": "village|town|island|region|country|unknown" }
+      ]
+    },
+
+    "variants": [
+      {
+        "name": "",
+        "type": "orthographic|phonetic|patronymic|ancestral_surname|descendant_branch|latinized|unknown",
+        "notes": { "el": "", "en": "" }
+      }
+    ],
+
+    "claims": [
+      {
+        "type": "origin|etymology|migration|patronymic_origin|religion|status|heraldry|timeline|variants|earliest_attestation",
+        "text": { "el": "", "en": "" },
+        "confidence": 0.0,
+        "time_scope": { "el": "", "en": "" },
+        "evidence_ids": []
+      }
+    ],
+
+    "evidence": [
+      {
+        "id": "ev1",
+        "kind": "inscription|epitaph|notarial_record|registry_record|citation|narrative|artifact|timeline_digest",
+        "date": {
+          "year": null,
+          "from_year": null,
+          "to_year": null,
+          "precision": "unknown|year|date|range|approx"
+        },
+        "place": { "el": "", "en": "" },
+        "excerpt": { "el": "", "en": "" },
+        "people_mentions": ["", ""],
+        "source": {
+          "type": "book|journal|archive|manuscript|web|unknown",
+          "citation": { "el": "", "en": "" },
+          "locator": ""
+        }
+      }
+    ],
+
+    "quality": {
+      "detail_level": "low|medium|high",
+      "needs_human_review": true,
+      "missing": ["sources", "dates", "places", "variants", "evidence"],
+      "editor_notes": { "el": "", "en": "" }
+    }
+  }
+}
