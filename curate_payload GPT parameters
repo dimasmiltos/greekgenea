@@ -1,0 +1,6 @@
+| Parameter         | Value | Reason                           |
+| ----------------- | ----- | -------------------------------- |
+| Temperature       | 0.2   | Low creativity, high consistency |
+| Top-P             | 0.9   | Natural language, controlled     |
+| Presence penalty  | **0** | Prevent topic drift              |
+| Frequency penalty | **0** | Preserve consistency             |
